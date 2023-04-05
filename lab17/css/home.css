@@ -1,0 +1,8 @@
+@media (max-width: 375px) {
+	.inner-container {
+		display: block;
+  		grid-template-columns: 1fr 1fr;
+  		grid-gap: 25px;
+	}
+}
+
