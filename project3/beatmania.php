@@ -1,0 +1,258 @@
+<?php
+	$customCSS = "<link rel=\"stylesheet\" type=\"text/css\" href=\"css/styles.css\">
+	<link rel=\"stylesheet\" type=\"text/css\" href=\"css/navigation.css\">
+	<link rel=\"stylesheet\" href=\"https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css\">";
+	include "inc/html-top.php"
+?>
+
+<body>
+	<div class="container">
+	<header>
+		<?php include "inc/banner.php" ?>
+
+		<h1>Beatmania</h1>
+
+		<div>The first of all the trending music rhythm games</div>
+	</header>
+	<?php include "inc/nav.php" ?>
+	<section class = "contain">
+
+	<h2>Impact of Beatmania</h2>
+
+	<figure>
+		<img src="images/Beatmania.jpg" alt = "Beatmania">
+		<figcaption>Poster of Beatmania</figcaption>
+	</figure>
+
+	<p>Beatmania is a rhythm video game developed and distributed by Japanese game developer Konami and first released in December 1997. It contributed largely to the boom of music games in 1998, and the series expanded not only with arcade sequels, but also moved to home consoles and other portable devices, achieving a million unit sales. The Bemani line of music games from Konami is named after the series, was first adopted in the arcade release of Beatmania 3rdMix and kept ever since. The series came to an end with the last game being Beatmania The Final, released in 2002.</p>
+
+	<p>Beatmania gave birth to several spinoffs, such as the Beatmania IIDX series (a more advanced version featuring 7 keys and higher difficulty levels, and to this day still receiving new version updates) and the other being Beatmania III, a remake of the 5-key series which featured a more modern hardware platform, a pedal for optional effects and a 3.5" floppy disk drive to save play records.</p>
+
+	<p>While the series was never ported to home computers, there have been unlicensed hard-drive copies which made it playable on a computer's keyboard, or even with a modded PlayStation controller. Its popularity led to non-official simulators, with one of the most popular being BM98.</p>
+
+	<p>Beatmania and its variants have a following in Japan and all around the world. The password-based Internet Ranking service allowed competition wherever a machine is available. Today in the United States, many of the original Beatmania cabinets are in the hands of arcade collectors and Bemani enthusiasts, and consequently, are a rare sight at many arcades.</p>
+
+	</section>
+
+	<section>
+
+	<h2>Basic Rules</h2>
+
+	<figure>
+		<img src="images/beatmaniacontrols.jpg" alt = "Beatmania controls">
+		<figcaption>Beatmania controls that look like an M</figcaption>
+	</figure>
+
+	<p>The player is a club DJ who must manipulate the controls according to the instructions on the screen to win the praise of the audience. Each game consists of a set number of songs of various difficulties, and each song must attain a certain degree of satisfaction from the audience in order to progress to the next.</p>
+
+	<p>The game controls consist of five plastic vertical rectangular keys that are arranged in a zigzag pattern like the letter "M" or in vibraphone type arranged. They resemble the layout of the keys of a piano (e.g. C, C#, D, D#, and E) and are color-coded in the same fashion, with the lower row white and the top row black. A turntable is to the right of the five keys, and is turned, or "scratched".</p>
+
+	<p>Each key has a corresponding vertical bar onscreen, as does the turntable. The bars indicate the path which rectangular icons cascade down towards a horizontal line near the bottom of the screen. The player must hit the corresponding key or rotate the turntable when the icon matches the line, which will trigger a preset sound sample and recomposes the song properly. Players are judged for each key press for the accuracy of the timing on a scale of p-great (from "perfect great"; also called "flashing great"), great, good, bad and poor. Hitting keys/scratching when corresponding notes are absent will deplete a bar indicating the audience satisfaction. The passing range is shown on the bar as a red region on the right, and green for the failing range on the left. The game may end prematurely if the bar is completely depleted, but this depends on individual machine settings.</p>
+
+	<p>The unit of score in the game is "money". A final grade (A – H) is given at the end of the game to indicate the player's performance. This grade is not directly based on the "money score", but is instead based on the player's overall accuracy.</p>
+
+	</section>
+
+	<section>
+
+	<h2>Addtional Rules</h2>
+
+	<div>Various game modes are available, with different rule alterations that provide suitable challenges for players of various degrees of skill.</div>
+
+	<ul>
+			<li>
+				<strong>Practice</strong>
+				<p>Featured in Beatmania 2ndMix and Beatmania, inexperienced players can go through a training stage with DJ Konami, a voice-over that walks the player through the basics of the game. After the training stage players can select songs normally and regardless of their performance won't end a game prematurely. The voice over was not featured in any other Beatmania series game, although a similarly formatted Tutorial mode was recently added to the Beatmania IIDX games. Prior to practice mode players could choose to play a practice stage during normal games.</p>
+			</li>
+			<li>
+				<strong>Normal</strong>
+				<p>The regular mode. Players select songs and play normally. A pool of songs is available for every stage, with the next stage pool being more difficult than the last. Clearing is required to get to the next stage.</p>
+			</li>
+			<li>
+				<strong>Free</strong>
+				<p>Introduced in 6thMIX, Free mode is another practice mode that follows all the rules of the Normal mode, with passing and failing scores, but allows the player to play all the predefined number of songs regardless of each song's difficulty.</p>
+			</li>
+			<li>
+				<strong>Expert</strong>
+				<p>A mode for skilled players with courses that predefines the songs to be played. The rules for this mode have been modified throughout different versions of the game.</p>
+				<ul>
+					<li>
+						Beatmania
+						<p>Players must play through all the songs in a set order, with the audience bar dropping in greater degrees and increasing less. All the other rules follow the normal mode. Continues are allowed.</p>
+					</li>
+					<li>
+						2ndMIX
+						<p>Different themed course are given, each running five songs long. The scoring rules follow that of the previous beatmania.</p>
+					</li>
+					<li>
+						3rdMIX
+						<p>In addition to the courses format of 2ndMIX, the audience bar is now full from the beginning, and any decrease will carry onto the next stage, where good performance does not recover the bar. The audience bar is characteristically colored in red, and no continues are allowed upon game over.</p>
+					</li>
+					<li>
+						completeMIX and after
+						<p>With the introduction of the Internet Ranking service, scores are now counted as 2 points for "Just Great" and 1 point for "Great", which makes the overall EX Score. Upon completion of the course, a password is given to the player to submit to the official website for worldwide ranking. All of the Internet Ranking services have ended and are no longer available.</p>
+					</li>
+					<li>
+						featuring "Dreams Come True"
+						<p>The Dreams Come True edition uses the same rules as CompleteMIX, but also features a minigame in between songs where a player can rapidly scratch to restore life.</p>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<strong>Expert+</strong>
+				<p>First offered in 6thMIX, this mode is designed for the most skilled of players. A single course is provided, featuring ten of the most difficult songs in a particular version. The audience bar functions similarly to that of Expert mode, but falling to zero doesn't result in an immediate game over. Rather, "Danger" is displayed on the screen, and it will take several subsequent misses to end the game. The bar is restored after each song, though the bar will be increased to just barely over "Danger", should it have been in effect at the end of the song.</p>
+			</li>
+			<li>
+				<strong>Easy</strong>
+				<p>Available since 3rdMIX, the Easy mode offers simplified playing sequences for songs. The selection of Easy and Hard modes were discarded altogether from 6thMIX and after, with difficulty selection becoming options within the integrated Normal mode.</p>
+			</li>
+	</ul>
+
+	</section>
+
+	<section>
+
+	<h2>Cabinet Design</h2>
+
+	<p>Two major styles of the Beatmania cabinet were originally created, the standard cabinet, and the mini-style cabinet. The standard cabinet was taller and wider than the mini-style and included a 29" screen, versus the 20" screen on the mini cabinet. The 1P/2P/Effect buttons were placed on the vertical face of the cabinet on the mini, while placed between the keys, ahead of the coin drop on standard cabinets. The mini-cabinet contained 6 speakers, 4 normal mid/high range, and 2 larger subs. The standard cabinet contained 10 speakers, including the 2 subs. Functionally the game boards, HDD, and ROM chips were the same between cabinets. Finally, the mini cabinet had a smaller spacing between the turntable and the keys, and the turntable was approximately half the diameter of the standard version. Today the mini-cabinet is much more difficult to find, especially in the United States.</p>
+
+	<h2>Reception</h2>
+
+	<p>In Japan, Game Machine listed Beatmania on their March 1, 1998 issue as being the most-successful dedicated arcade game of the month. By May 1999, Beatmania had sold 6,700 arcade units, for which it received the Guinness World Record for Most Popular DJ-Simulation Arcade Game. By 2000, the game had sold 25,000 arcade machines.</p>
+
+	<div>The PlayStation version of Beatmania sold 1.09 million units in Japan by 2004, and eventually a total of 1.1 million units in Japan.</div>
+
+	</section>
+
+	<section>
+		<h2>Main Artists</h2>
+		<p>Beatmania offers many musical genres from different disciplines of electronic music. Below are some of the artists who made frequent appearances in the series.</p>
+		<ul class="people">
+			<li>dj nagureo/reo nagumo/tiger YAMATO and other aliases</li>
+			<li>Mikio Endo</li>
+			<li>Hiroshi Watanabe</li>
+			<li>Hiroyuki Togo and other aliases</li>
+			<li>Naoki Maeda and other aliases</li>
+			<li>DJ TAKAWO</li>
+			<li>RAM</li>
+			<li>TAQ</li>
+			<li>BEMANI Sound Team "L.E.D, dj TAKA and TOMOSUKE"</li>
+		</ul>
+	</section>
+
+	<section>
+		<h2>Releases</h2>
+
+		<p>The Beatmania series has been released on multiple platforms in addition to its arcade releases. The majority of the games are featured on the PlayStation, but other console ports have also been featured on the Game Boy Color, and the WonderSwan. The North American Beatmania on the PlayStation 2 also features the same gameplay as the arcade releases.</p>
+	
+		<p>Several key mixes were never ported to home or portable consoles, including Beatmania 7thMix and Beatmania The Final. There are many console-exclusive songs that were also never introduced in the Arcade releases—those include "GOTTAMIX" and "THE SOUND OF TOKYO!" respectively. Many songs were also released on one mix at the arcades but released in another style for the consumer versions. The best example of this was Gottamix 2, which contained consumer-exclusive songs in addition to the "Complete Mix 2 Anothers" that was released months earlier as an arcade exclusive.</p>
+
+		<table>
+			<tr>
+				<th>Country</th>
+				<th>Title</th>
+				<th>Platform</th>
+				<th>Date Released</th>
+			</tr>
+
+			<tr>
+				<td>Japan</td>
+				<td>Beatmania</td>
+				<td>Arcade</td>
+				<td>12/10/1997</td>
+			</tr>
+
+			<tr>
+				<td>Japan</td>
+				<td>Beatmania 2ndMix</td>
+				<td>Arcade</td>
+				<td>03/18/1998</td>
+			</tr>
+
+			<tr>
+				<td>Japan</td>
+				<td>Beatmania 3rdMix</td>
+				<td>Arcade</td>
+				<td>09/28/1998</td>
+			</tr>
+
+			<tr>
+				<td>Japan</td>
+				<td>Beatmania Complete Mix</td>
+				<td>Arcade</td>
+				<td>01/19/1999</td>
+			</tr>
+
+			<tr>
+				<td>Japan</td>
+				<td>Beatmania 4thMix the beat goes on</td>
+				<td>Arcade</td>
+				<td>04/26/1999</td>
+			</tr>
+
+			<tr>
+				<td>Japan</td>
+				<td>Beatmania 5thMix Time to Get Down</td>
+				<td>Arcade</td>
+				<td>09/22/1999</td>
+			</tr>
+
+			<tr>
+				<td>Japan</td>
+				<td>Beatmania Complete Mix 2</td>
+				<td>Arcade</td>
+				<td>07/27/1999</td>
+			</tr>
+
+			<tr>
+				<td>Japan</td>
+				<td>Beatmania ClubMix</td>
+				<td>Arcade</td>
+				<td>03/28/2000</td>
+			</tr>
+
+			<tr>
+				<td>Japan</td>
+				<td>Beatmania featuring Dreams Come True</td>
+				<td>Arcade</td>
+				<td>03/21/2000</td>
+			</tr>
+
+			<tr>
+				<td>Japan</td>
+				<td>Beatmania Core Remix</td>
+				<td>Arcade</td>
+				<td>09/28/2000</td>
+			</tr>
+
+			<tr>
+				<td>Japan</td>
+				<td>Beatmania 6thMix The UK Underground Music</td>
+				<td>Arcade</td>
+				<td>07/11/2001</td>
+			</tr>
+
+			<tr>
+				<td>Japan</td>
+				<td>Beatmania 7thMix Keepin' Evolution</td>
+				<td>Arcade</td>
+				<td>01/31/2002</td>
+			</tr>
+
+			<tr>
+				<td>Japan</td>
+				<td>Beatmania The Final</td>
+				<td>Arcade</td>
+				<td>07/26/2002</td>
+			</tr>
+		</table>
+	</section>
+
+	<footer>
+		<div>Zian Kang, CSC170 Web Design and Development</div>
+		<a href="beatmania.php">Original Source</a>
+	</footer>
+	</div>
+	<?php include "inc/scripts.php" ?>
+</body>
+</html>
